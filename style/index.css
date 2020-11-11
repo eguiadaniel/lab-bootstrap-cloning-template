@@ -1,1 +1,35 @@
 /* Your own custom styles should be here */
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+}
+.navbar-nav .nav-link:hover {
+    color: rgba(0,0,0);
+}
+
+.card-columns .card {
+  padding: 0 20px 0 0px;
+}
+
+.card-body {
+    padding: 1.25rem 1.25rem 1.25rem 0;
+}
+
+ul.dashed {
+  list-style-type: none;
+  margin: 0 70px 0 0;
+  padding-left: 0;
+}
+
+ul.dashed > li:before {
+  content: '-';
+  text-indent: 0px;
+  display: block;
+  position: absolute;
+  margin-left: -12px;
+  color: rgb(1, 84, 255);
+}
+

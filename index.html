@@ -4,7 +4,16 @@
     <meta charset="utf-8" />
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/style/index.css" />
 
     <title>Significa</title>
   </head>
@@ -14,69 +23,184 @@
       does not mis-format this specific file
     -->
     <!-- prettier-ignore -->
-    Showcase
-    Services
-    About
-    Careers
-    Labs
-    Contact
-    Your go-to digital agency
-    Significa is a digital design-led agency mainly focused on Product Development.
-    Oopsie for users — Your favourite food, one click away!
-    Business Analysis, Product Management, Consultancy & 5 others
-    Opennode — Bitcoin, for everyday.
-    UI/UX, Front End, Front End
-    AKASHA — Open systems to expand our collective mind.
-    UI/UX, Front End, Illustration
-    We build digital products
-    Having a design-led approach to what we do defines who we are. We take on products from inception to launch, from business model to people's pocket, from wireframe to continuous deployment.
-    Strategy
-    UX research
-    Business strategy
-    Brand strategy
-    Product strategy
-    Product management
-    Product design
-    Product design
-    User experience
-    User interface
-    Brand development
-    Illustration
-    Motion & Video
-    Development
-    Development
-    Front-end engineering
-    Web-app development
-    Native app development
-    Development operations
-    View services
-    View services
-    What's new on Significa Labs
-    Automating releases for UI Kits — How to automate release logs and builds for your style guides
-    Tutorial on Medium
-    An iceberg sank the Titanic — But what’s that got to do with text hierarchy?
-    Article on Medium
-    On creating synergies — Sharing without compromising our identity
-    Article on Medium
-    Enter the Lab
-    Drop by, we're hiring.
-    We are an open-minded, open-hearted team that loves the thrill of creating exciting new projects. Drop us a line if you’re passionate and talented to do everything you set your mind to.
-    View careers
-    Legal © 2019
-    Say
-    hello@significa.co
-    (+351) 226 001 751
-    Links
-    Home
-    Showcase
-    Services
-    About
-    Careers
-    Labs
-    Contact
-    Network
-    Coletiv
-    Adamant
-    Follow us
+    <header class="container fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="d-flex flex-grow-1">
+          <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.svg" width="100" alt="" loading="lazy">
+          </a>
+         
+          <div class="w-100 text-right">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          </div>
+      </div>
+      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+          <ul class="navbar-nav ml-auto flex-nowrap">
+              <li class="nav-item">
+                <a href="#" class="nav-link m-2 menu-item nav-active">Showcase</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link m-2 menu-item nav-active">Services</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link m-2 menu-item">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link m-2 menu-item">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link m-2 menu-item">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+</header>
+
+
+    <section id="intro">
+      <div style="margin-bottom: 70px" class="container">
+        <div style="margin-top: 450px" class="container">
+          <div class="row">
+            <h1 style="font-size: 52px;" class="">
+              Your go-to<br />
+              digital agency
+            </h1>
+          </div>
+        </div>
+
+        <div style="margin-top: 400px" class="container">
+          <div class="row">
+            <h4 class="">
+              Significa is a digital design-led agency mainly<br />
+              focused on Product Development.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="featured"></section>
+      <div style="margin-bottom:70px" class="container">
+        <div class="card-columns ">
+
+          <div class="card border-0">
+            <img src="./images/1.png" class="card-img-top shadow" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Oopsie for users — Your favourite food, one click away!</h5>
+              <p class="card-text">Business Analysis, Product Management, Consultancy & 5 others </p>           
+            </div>
+          </div>
+          
+          <div class="card border-0">
+            <img src="./images/2.png" class="card-img-top shadow" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Opennode — Bitcoin, for everyday. </h5>
+              <p class="card-text">UI/UX, Front End, Front End</p>           
+            </div>
+          </div>
+        
+          <div class="card border-0">
+            <img src="./images/3.png" class="card-img-top shadow" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AKASHA — Open systems to expand our collective mind. </h5>
+              <p class="card-text">UI/UX, Front End, Illustration</p>           
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info">
+      <div class="container" style="margin-bottom:70px">
+        <div class="row">
+          <div class="col-5">
+            <h3 style="font-size:2em">We build digital <br> products</h3>
+          </div>
+          <div style="font-size: 1.25em;" class="col-7 pr-lg-5">
+            <p>Having a design-led approach to what we do defines who we are. We take on products from inception to launch, from business model to people's pocket, from wireframe to continuous deployment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-around" style="margin-bottom:70px">
+        <div class="row">
+          <div class="">
+            <h5 style="font-size: 1.25em; margin-bottom: 20px;">Strategy</h5>
+            <ul class="dashed">
+              <li style="    font-size: 1.125em; line-height: 1.7;">UX research</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Business strategy</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Brand strategy</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Product strategy</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Product management</li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 style="font-size: 1.25em; margin-bottom: 20px;">Product design</h5>
+            <ul class="dashed">
+              <li style="    font-size: 1.125em; line-height: 1.7;">User experience</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">User interface</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Brand development</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Illustration</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Motion & Video</li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 style="font-size: 1.25em; margin-bottom: 20px;">Development</h5>
+            <ul class="dashed">
+              <li style="    font-size: 1.125em; line-height: 1.7;">Front-end engineering</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Web-app development</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Native app development</li>
+              <li style="    font-size: 1.125em; line-height: 1.7;">Development operations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-around" style="margin-bottom:70px">
+        <div class="row">
+          <div class="col">
+            <a href="#">View services 
+              <svg class="styled__Arrow-d87459-0 bQLhSh" width="14" height="10" xmlns="http://www.w3.org/2000/svg"><g stroke="#111314" fill="none" fill-rule="evenodd"><path d="M8.5.964L13.036 5.5 8.5 10.036"></path><path d="M12.5 5.5H.5" stroke-linecap="square"></path></g></svg>
+               </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id=""></section>
+
+
+
+  <footer style="padding:100px"></footer>
+
+
+
+
   </body>
 </html>
+
+<!-- Showcase Services About Careers Labs Contact Your go-to digital agency
+Significa is a digital design-led agency mainly focused on Product
+Development. Oopsie for users — Your favourite food, one click away!
+Business Analysis, Product Management, Consultancy & 5 others Opennode —
+Bitcoin, for everyday. UI/UX, Front End, Front End AKASHA — Open systems to
+expand our collective mind. UI/UX, Front End, Illustration We build digital
+products Having a design-led approach to what we do defines who we are. We
+take on products from inception to launch, from business model to people's
+pocket, from wireframe to continuous deployment. Strategy UX research
+Business strategy Brand strategy Product strategy Product management Product
+design Product design User experience User interface Brand development
+Illustration Motion & Video Development Development Front-end engineering
+Web-app development Native app development Development operations View
+services View services What's new on Significa Labs Automating releases for
+UI Kits — How to automate release logs and builds for your style guides
+Tutorial on Medium An iceberg sank the Titanic — But what’s that got to do
+with text hierarchy? Article on Medium On creating synergies — Sharing
+without compromising our identity Article on Medium Enter the Lab Drop by,
+we're hiring. We are an open-minded, open-hearted team that loves the thrill
+of creating exciting new projects. Drop us a line if you’re passionate and
+talented to do everything you set your mind to. View careers Legal © 2019
+Say hello@significa.co (+351) 226 001 751 Links Home Showcase Services About
+Careers Labs Contact Network Coletiv Adamant Follow us -->
